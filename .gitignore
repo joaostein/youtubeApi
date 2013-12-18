@@ -33,7 +33,7 @@ node_modules
 
 
 ### Bower ###
-public/components
+bower_components/
 
 
 ### PhPStorm ###
