@@ -1,0 +1,20 @@
+{
+  "name": "youtubeApi",
+  "version": "0.0.1",
+  "authors": [
+    "Joao Stein <joaosteing@gmail.com>"
+  ],
+  "description": "youtube Api experiment",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "swfobject": 2.3.0
+  }
+}
