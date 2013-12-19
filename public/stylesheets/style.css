@@ -1,1 +1,11 @@
+.btn {
+  display: inline-block;
+  background: #ccc;
+  padding: 10px;
+  text-decoration: none;
+  margin-left: 5px;
+}
 
+.btn:first-of-type {
+  margin-left: 0;
+}
