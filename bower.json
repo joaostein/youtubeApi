@@ -15,6 +15,7 @@
     "tests"
   ],
   "dependencies": {
-    "swfobject": "2.2"
+    "swfobject": "2.2",
+    "jquery": ">=2.0.3"
   }
 }
