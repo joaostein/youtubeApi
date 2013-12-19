@@ -5,7 +5,7 @@ var params = {
 };
 
 var atts = {
-  id: "playerContainer"
+  id: "myPlayer"
 };
 
 // swfobject.embedSWF(swfUrl, htmlElementId, width, height, swfVersion, xiSwfUrlStr, flashvarsObj, paramsObj, attrObj)
@@ -13,5 +13,11 @@ swfobject.embedSWF("http://www.youtube.com/v/7QBgK0_RbkE?enablejsapi=1&playerapi
 
 // To test the functions, we need to have a local server running (https://developers.google.com/youtube/js_api_reference#GettingStarted)
 var onYouTubePlayerReady = function (playerId) {
-  myPlayer = document.getElementById("playerContainer");
+  var myPlayer = new YoutubePlayer();
+  myPlayer.loaded = true;
 };
+
+var YoutubePlayer = function () {
+  this.loaded = false;
+  this.player = document.getElementById('myPlayer');
+}
